@@ -312,18 +312,40 @@
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
                             <i class="uil uil-graduation-cap qualification__icon"></i> Education
                         </div>
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__work" data-target="#work">
                             <i class="uil uil-briefcase-alt qualification__icon"></i> Work
                         </div>
                     </div>
-                    <div class="qualification__section">
+
+                    <div class="qualification__sections">
             <!--==================== QUALIFICATION content 1 ====================-->
-                        <div class="qualification__content">
+                        <div class="qualification__content qualification__active" data-content id="education">
             <!--==================== QUALIFICATION 1 ====================-->
                             <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Brigham Young University - Pathway</h3>
+                                    <span class="qualification__subtitle">Salt Lake city - Online</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2012 - 2013
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+        <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
                                 <div>
                                     <h3 class="qualification__title">Electronics and Communication Engineering</h3>
                                     <span class="qualification__subtitle">CDMX - Unitec</span>
@@ -332,37 +354,15 @@
                                         2014 - 2017
                                     </div>
                                 </div>
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
                             </div>
-            <!--==================== QUALIFICATION 2 ====================-->
+            <!--==================== QUALIFICATION 3 ====================-->
                             <div class="qualification__data">
-                                <div></div>
-                                
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                                
                                 <div>
                                     <h3 class="qualification__title">Responsive Web Design</h3>
                                     <span class="qualification__subtitle">FreeCodeCamp - bootcamp (300 hrs) </span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
                                         2021 - 2022
-                                    </div>
-                                </div>
-                            </div>
-            <!--==================== QUALIFICATION 3 ====================-->
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">FullStack (PERNN) Development</h3>
-                                    <span class="qualification__subtitle">Escuela de Programacion y desarrollo de software de Platzi</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2021 - Present
                                     </div>
                                 </div>
                                 <div>
@@ -375,22 +375,19 @@
                                 <div></div>
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
+                                    <!-- <span class="qualification__line"></span> -->
                                 </div>
                                 <div>
-                                    <h3 class="qualification__title">Brigham Young University - Pathway</h3>
-                                    <span class="qualification__subtitle">Salt Lake city - Online</span>
+                                    <h3 class="qualification__title">FullStack (PERNN) Development</h3>
+                                    <span class="qualification__subtitle">Escuela de Programacion y desarrollo de software de Platzi</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2012 - 2013
+                                        2021 - Present
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="qualification__section">
-            <!--==================== QUALIFICATION content 2 ====================-->
-                        <div class="qualification__content">
+                        <div class="qualification__content" data-content id="work">
             <!--==================== QUALIFICATION 2 ====================-->
                             <div class="qualification__data">
                                 <div>
@@ -444,7 +441,7 @@
                                 <div></div>
                                 <div>
                                     <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
+                                    <!-- <span class="qualification__line"></span> -->
                                 </div>
                                 <div>
                                     <h3 class="qualification__title">Sales  Representative</h3>
@@ -457,6 +454,7 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
 
