@@ -105,8 +105,20 @@ let swiper = new Swiper(".portfolio__container", {
 },
 });
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== coursers ====================*/
+let courserSwiper = new Swiper(".coursers__container", {
+  cssMode: true,
+  loop: true,
 
+  navigation: {
+    nextEl: ".swiper-button-nextCoursers",
+    prevEl: ".swiper-button-prevCoursers",
+  },
+  pagination: {
+    el: ".swiper-paginationCoursers",
+    clickable: true,
+  },
+});
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
