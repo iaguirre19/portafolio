@@ -91,7 +91,7 @@ modalCloses.forEach((modalClose) => {
     })
 })
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".portfolio__container", {
+let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop: true,
 
@@ -106,17 +106,30 @@ let swiper = new Swiper(".portfolio__container", {
 });
 
 /*==================== coursers ====================*/
-let courserSwiper = new Swiper(".coursers__container", {
+let swiperCoursers = new Swiper(".coursers__container", {
   cssMode: true,
   loop: true,
+  // grabCursor:true,
+  // spaceBetween: 48,
 
-  navigation: {
-    nextEl: ".swiper-button-nextCoursers",
-    prevEl: ".swiper-button-prevCoursers",
-  },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+
   pagination: {
-    el: ".swiper-paginationCoursers",
+    el: ".swiper-pagination",
     clickable: true,
+    dynamicBullets: true,
+  },
+  breakpoints: {
+    568: {
+      slidesPerView: 2,
+    },
   },
 });
 
