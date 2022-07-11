@@ -27,7 +27,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid" >
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -60,6 +60,10 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
                 <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -261,7 +265,7 @@
                             </div>
                         </div>
                         <!--------------Skills 3-------------->
-                        <div class="skills__content skills__close">
+                        <!-- <div class="skills__content skills__close">
                             <div class="skills__header">
                                 <i class="uil uil-swatchbook skills__icon"></i>
                                 <div>
@@ -299,7 +303,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 
@@ -549,7 +553,7 @@
                         </div>
                     </div>
             <!--==================== SERVICES 3====================-->
-                    <div class="services__content">
+                    <!-- <div class="services__content">
                         <div>
                             <i class="uil uil-pen services__icon"></i>
                             <h3 class="services__title">Branding <br> Designer</h3>
@@ -588,7 +592,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
 
@@ -617,7 +621,7 @@
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">TechPRO Store</h3>
-                                <p class="portfolio__description">Website adaptable to all  devices, with ui components and animated interactions</p>
+                                <p class="portfolio__description">Website adaptable to all  devices, with ui components and animated interactions made with Html & Css</p>
                                 <a href="https://techproaudifonos.netlify.app/"     target="_blank" class="button button--flex button--small    portfolio__button">
                                     Demo <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -630,7 +634,7 @@
                             
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Task Dashboard <>(Desktop)</   span></h3>
-                                <p class="portfolio__description">Website adaptable to all  devices, with ui components and animated interactions</p>
+                                <p class="portfolio__description">task board, ios style with background mirror effect made with Html and Css</p>
                                 <a href="https://task-glass.netlify.app/" target="_blank"   class="button button--flex button--small portfolio__button">
                                     Demo <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -643,7 +647,7 @@
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Rock, paper and Scissors game</h3>
-                                <p class="portfolio__description">Website adaptable to all  devices, with ui components and animated interactions</p>
+                                <p class="portfolio__description">Classic rock paper scissors game, with animated interactions, implemented With Html, Css and JavaScript languages</p>
                                 <a href="https://rockpaperandscissors20.netlify.app/"   target="_blank" class="button button--flex button--small  portfolio__button">
                                     Demo <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -655,7 +659,7 @@
 
                             <div class="portfolio__data">
                                 <h3 class="portfolio__title">Discount Coupon</h3>
-                                <p class="portfolio__description">Website adaptable to all  devices, with ui components and animated interactions</p>
+                                <p class="portfolio__description">Amazon-style discount coupon book, with different products for sale. there are 3 coupons which the user can use to get a discount</p>
                                 <a href="https://descuentospltz.netlify.app/" target="_blank"   class="button button--flex button--small portfolio__button">
                                     Demo <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
@@ -673,7 +677,7 @@
                                 </a>
                             </div>
                         </div>
-            <!--======================== Portofolio 7 =======================-->
+            <!-- ======================== Portofolio 7 =======================
                         <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="imagen project 1"     class="portfolio__img">
 
@@ -684,7 +688,7 @@
                                     Demo <i class="uil uil-arrow-right button__icon"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
             <!--======================== Portofolio 1 =======================-->
                     <div class="swiper-button-next">
@@ -698,7 +702,7 @@
                 </div>
             </section>
             <!-- ========================coursers=============================== -->
-            <section class="coursers section" id="portfolio">
+            <section class="coursers section" id="coursers">
                 <h2 class="section__title">Coursers & Certifications</h2>
                 <span class="section__subtitle">My learned courses</span>
             <!-- se activa cuando hacemos el javascript -->
@@ -823,12 +827,43 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-        
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Iran</h1>
+                        <span class="footer__subtitle">Frontend Developer</span>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/iranricardo.aguirrecastaneda/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/aguirre_iran/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/iranaguirre3" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Iran Aguirre. All right reserved</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
-
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
 
